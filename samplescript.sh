@@ -1,1 +1,1 @@
-find / -name *.txt
+df -h
