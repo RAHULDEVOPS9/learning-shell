@@ -1,1 +1,1 @@
-echo todays d/ate is "$date"
+find / -name *.txt
