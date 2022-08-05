@@ -1,1 +1,1 @@
-echo todays d/ate is $date
+echo todays d/ate is "$date"
