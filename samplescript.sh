@@ -1,5 +1,5 @@
   #!/usr/bin/bash
-  if [ abc == ABC ]
+  if [ ABC == ABC ]
   then
   echo both are same
   else
