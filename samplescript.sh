@@ -1,5 +1,5 @@
 while true
 do
- echo $data
+ echo $date
 sleep 10
 done
