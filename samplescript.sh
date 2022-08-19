@@ -1,5 +1,9 @@
 #!/bin/bash
 
+read -p 'Enter your name: ' name
+
+echo Your Name = $name
+
 if [ $# -lt 2 ]; then
   echo Input Missing
   exit 1
