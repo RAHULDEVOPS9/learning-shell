@@ -29,11 +29,22 @@
 #done
 
 
-echo "### Break Example"
+#echo "### Break Example"
+#i=10
+#while [ "$i" -gt 0 ]; do
+#  echo Hello World
+#  i=$(($i-1))
+#  break
+#  echo Hello Universe
+#done
+
+echo "### Continue Example"
 i=10
 while [ "$i" -gt 0 ]; do
   echo Hello World
   i=$(($i-1))
-  break
+  continue
   echo Hello Universe
 done
+
+
