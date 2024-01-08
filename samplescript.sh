@@ -23,7 +23,17 @@
 #  echo Welcome to DevOps Training
 #fi
 
-while true
-do
-echo "Hellow Buddy"
+#while true
+#do
+#echo "Hellow Buddy"
+#done
+
+
+echo "### Break Example"
+i=10
+while [ "$i" -gt 0 ]; do
+  echo Hello World
+  i=$(($i-1))
+  break
+  echo Hello Universe
 done
