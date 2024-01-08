@@ -2,10 +2,10 @@
 
 case $1 in
 apple)
-  echo 'Price = $1'
+  echo 'Price = 10'
   ;;
 banana)
-   echo 'Price =$2'
+   echo 'Price =20'
    ;;
  *)
    echo 'Item not found'
