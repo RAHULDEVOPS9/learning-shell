@@ -24,5 +24,6 @@
 #fi
 
 while true
+do
 echo "Hellow Buddy"
 done
