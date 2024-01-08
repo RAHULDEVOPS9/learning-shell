@@ -13,12 +13,16 @@
  #esac
 
 
- if [ -z "$1" ]; then
-   echo Input is empty
-   exit 1
- fi
+#if [ -z "$1" ]; then
+#  echo Input is empty
+#  exit 1
+#fi
 
- input=$1
- if [ "$input" = devops ]; then
-   echo Welcome to DevOps Training
- fi
+#input=$1
+#if [ "$input" = devops ]; then
+#  echo Welcome to DevOps Training
+#fi
+
+while true
+echo "Hellow Buddy"
+done
